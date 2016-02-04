@@ -1,0 +1,28 @@
+SOQL
+
+SELECT Id, Name, Session_Date__c, Level__c FROM Session__c
+
+
+SELECT Id, First_Name__c, Last_Name__c, Email__c FROM Speaker__c
+ORDER BY First_Name__c, Last_Name__c
+
+
+SELECT Session__r.Name,
+Session__r.Session_Date__c,
+Speaker__r.First_Name__c,
+Speaker__r.Last_Name__c
+FROM Session_Speaker__c
+ORDER BY Session__r.Session_Date__c, Session__r.Name
+
+
+Session__c session=new Session__c(Name='Advanced Apex', Level__c='Advanced');
+insert session;
+
+Session__c session = [SELECT Id FROM Session__c WHERE NAME='Advanced Apex'];
+session.Level__c = 'Intermediate';
+update session;
+
+String q = 'SELECT First_Name__c, Last_Name__c, Email__c FROM Speaker__c WHERE Email__c != null';
+        SendReminderEmail batch = new SendReminderEmail(q, 'Final Reminder', 'The conference starts next Monda
+        y');
+        Database.executeBatch(batch);
