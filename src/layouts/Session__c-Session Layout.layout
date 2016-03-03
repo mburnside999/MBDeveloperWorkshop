@@ -61,6 +61,11 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>Name</fields>
+        <fields>Description__c</fields>
+        <fields>Level__c</fields>
+    </miniLayout>
     <relatedLists>
         <fields>NAME</fields>
         <fields>Speaker__c.First_Name__c</fields>
@@ -73,7 +78,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h28000003VIl0</masterLabel>
+        <masterLabel>00h28000003WLdp</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

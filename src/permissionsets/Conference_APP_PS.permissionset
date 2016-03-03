@@ -18,24 +18,17 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SpeakerControllerExtension</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>TestRejectDoubleBooking</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>SpeakerControllerExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-
     <fieldPermissions>
         <editable>true</editable>
         <field>Hotel__c.Location__c</field>
         <readable>true</readable>
     </fieldPermissions>
- 
-
     <fieldPermissions>
         <editable>true</editable>
         <field>Session__c.Description__c</field>
@@ -119,17 +112,14 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
-
         <apexPage>HotelMap</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-
         <apexPage>SpeakerForm</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <tabSettings>
-
         <tab>Hotel_Map</tab>
         <visibility>Visible</visibility>
     </tabSettings>
@@ -138,7 +128,6 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-
         <tab>Session__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>

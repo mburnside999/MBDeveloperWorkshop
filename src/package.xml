@@ -2,16 +2,15 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>EmailManager</members>
-
         <members>HotelRemoter</members>
         <members>SendReminderEmail</members>
         <members>SpeakerControllerExtension</members>
         <members>TestRejectDoubleBooking</members>
         <name>ApexClass</name>
-    </types>  
+    </types>
     <types>
+        <members>HotelMap</members>
         <members>SpeakerForm</members>
-         <members>HotelMap</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -37,7 +36,6 @@
         <name>CustomTab</name>
     </types>
     <types>
-
         <members>Session_Speaker__c-Session Speaker Layout</members>
         <members>Session__c-Session Layout</members>
         <members>Speaker__c-Speaker Layout</members>
