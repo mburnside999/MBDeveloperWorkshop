@@ -3,6 +3,7 @@
     <types>
         <members>EmailManager</members>
         <members>HotelRemoter</members>
+        <members>LTGSessionController</members>
         <members>SendReminderEmail</members>
         <members>SpeakerControllerExtension</members>
         <members>TestRejectDoubleBooking</members>
@@ -45,5 +46,5 @@
         <members>Conference_APP_PS</members>
         <name>PermissionSet</name>
     </types>
-    <version>31.0</version>
+    <version>34.0</version>
 </Package>

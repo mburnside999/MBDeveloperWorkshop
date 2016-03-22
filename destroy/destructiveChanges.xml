@@ -6,6 +6,7 @@
         <members>SendReminderEmail</members>
         <members>SpeakerControllerExtension</members>
         <members>TestRejectDoubleBooking</members>
+        <members>LTGSessionController</members>
         <name>ApexClass</name>
     </types>
     <types>
