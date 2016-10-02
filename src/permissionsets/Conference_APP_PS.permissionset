@@ -76,7 +76,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Speaker__c.Picture__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <label>Conference APP PS</label>
     <objectPermissions>

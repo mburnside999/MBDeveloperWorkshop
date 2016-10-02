@@ -43,7 +43,7 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>Conference_APP_PS</members>
+        <members>*</members>
         <name>PermissionSet</name>
     </types>
     <version>34.0</version>
