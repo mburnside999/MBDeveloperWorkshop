@@ -6,7 +6,7 @@ trigger RejectDoubleBooking on Session_Speaker__c (before insert, before update)
              // Retrieve conflicts: other assignments for that speaker at the same time
              List<Session_Speaker__c> conflicts =
                  [SELECT Id FROM Session_Speaker__c
-                     WHERE Speakers__c = :sessionSpeaker.Speakers__c
+                     WHERE Speaker__c = :sessionSpeaker.Speaker__c
                      AND Session__r.Session_Date__c = :session.Session_Date__c];
              // If conflicts exist, add an error (reject the database operation)
              if(!conflicts.isEmpty()){

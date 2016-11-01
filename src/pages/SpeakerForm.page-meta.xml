@@ -4,14 +4,5 @@
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>SpeakerForm</label>
-    <packageVersions>
-        <majorNumber>1</majorNumber>
-        <minorNumber>10</minorNumber>
-        <namespace>sf_chttr_apps</namespace>
-    </packageVersions>
-    <packageVersions>
-        <majorNumber>1</majorNumber>
-        <minorNumber>5</minorNumber>
-        <namespace>sf_com_apps</namespace>
-    </packageVersions>
+    
 </ApexPage>

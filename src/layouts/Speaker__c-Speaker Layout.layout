@@ -76,7 +76,7 @@
     <relatedLists>
         <fields>Session__c.Session_Date__c</fields>
         <fields>Session__c.NAME</fields>
-        <relatedList>Session_Speaker__c.Speakers__c</relatedList>
+        <relatedList>Session_Speaker__c.Speaker__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>

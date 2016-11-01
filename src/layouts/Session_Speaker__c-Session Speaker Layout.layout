@@ -12,7 +12,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Speakers__c</field>
+                <field>Speaker__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -52,7 +52,7 @@
     </layoutSections>
     <miniLayout>
         <fields>Session__c</fields>
-        <fields>Speakers__c</fields>
+        <fields>Speaker__c</fields>
     </miniLayout>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
